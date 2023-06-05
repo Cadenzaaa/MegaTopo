@@ -1,6 +1,6 @@
 # `MegaTopo`: Distrubuted Large-Scale Active Internet Topology Discovery System
 
-![`MegaTopo` Arch] (https://github.com/Cadenzaaa/MegaTopo/blob/master/architecture.png?raw=true "Architecture of `MegaTopo`")
+![MegaTopo Arch](https://github.com/Cadenzaaa/MegaTopo/blob/master/architecture.png?raw=true)
 
 A great many of probers are usually required for an Internet-scale topology discovery, which may lead to huge measurement traffic and data.
 
