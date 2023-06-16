@@ -63,13 +63,6 @@ class KafkaConn:
         msg_dict = json.loads(msg)
         print(msg_dict)
         func(msg_dict)
-
-    def cmd(self, res: dict):
-        try:
-            self.res_producer.send(common.KAFKA_COMMAND_TOPIC, res)
-            self.res_producer.flush()
-        except Exception as e:
-            common.get_logger().error('Failed to Send Command Messages to Kafka: %s', e)
     
     def res(self, res: dict):
         try:
